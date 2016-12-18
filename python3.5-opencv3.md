@@ -1,3 +1,5 @@
+Ubuntu 16.10, gcc 6.2
+---
 Download & install anaconda python 3.5
 
 ```
