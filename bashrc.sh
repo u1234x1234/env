@@ -16,5 +16,7 @@ export HISTFILE=~/.bash_eternal_history
 # http://superuser.com/questions/20900/bash-history-loss
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"' >> $BASHRC_FILE
 
+# sshfs reconnect
+alias autosshfs="sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3"
 
 # ...
