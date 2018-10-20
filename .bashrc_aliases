@@ -1,0 +1,2 @@
+alias q=exit 
+alias autosshfs="sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3"
