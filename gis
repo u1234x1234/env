@@ -1,5 +1,0 @@
-sudo apt-get install libgdal-dev
-~/anaconda2/bin/pip install tifffile
-~/anaconda2/bin/pip install shapely
-~/anaconda2/bin/conda install gdal
-~/anaconda2/bin/conda install rasterio
