@@ -17,6 +17,6 @@ export HISTFILE=~/.bash_eternal_history
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"' >> $BASHRC_FILE
 
 # sshfs reconnect
-alias autosshfs="sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3"
+awk -F '[ =]' '$1 == "alias" {print; print "funcsave", $2}' ~/.bashrc_aliases | source -
 
 # ...
